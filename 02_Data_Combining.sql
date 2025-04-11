@@ -5,6 +5,7 @@ UNION ALL
 SELECT *, '2024_dec' AS source_month FROM `bike-share-user-analysis.bike_trips.2024_dec`
 UNION ALL
 SELECT *, '2024_jul' AS source_month FROM `bike-share-user-analysis.bike_trips.2024_jul`
+UNION ALL  
 SELECT *, '2025_jan' AS source_month FROM `bike-share-user-analysis.bike_trips.2025_jan`
 UNION ALL
 SELECT *, '2025_feb' AS source_month FROM `bike-share-user-analysis.bike_trips.2025_feb`
