@@ -53,7 +53,7 @@ Answer the first of three key business questions:
 
 ### SQL Scripts
 1. `01_Data_Exploration.sql`
-2. `02_Data_Combining.sql`
+2. `[02_Data_Combining.sql](02_Data_Combining.sql)`
 3. `03_Data_Cleaning.sql`
 4. `04_Data_Analysis.sql`
 
