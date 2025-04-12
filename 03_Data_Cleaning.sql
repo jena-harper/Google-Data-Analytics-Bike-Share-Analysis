@@ -1,4 +1,4 @@
--- created a new table named cleaned_combined_trips
+-- created a new table named cleaned_combined_trips --
 
 CREATE OR REPLACE TABLE `bike-share-user-analysis.bike_trips.cleaned_combined_trips` AS
 WITH deduped_data AS (
