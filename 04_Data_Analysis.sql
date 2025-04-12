@@ -1,4 +1,4 @@
--- Top 20 Start and End Stations Combined
+-- Top 20 Start and End Stations Combined --
 WITH top_start AS (
   SELECT
     start_station_name AS station_name,
@@ -8,14 +8,12 @@ WITH top_start AS (
     'Start' AS station_type
   FROM
     `bike-share-user-analysis.bike_trips.cleaned_combined_trips`
-
   GROUP BY
     station_name, lat, lon
   ORDER BY
     total_rides DESC
   LIMIT 20
 ),
-
 top_end AS (
   SELECT
     end_station_name AS station_name,
@@ -25,40 +23,36 @@ top_end AS (
     'End' AS station_type
   FROM
     `bike-share-user-analysis.bike_trips.cleaned_combined_trips`
-
   GROUP BY
     station_name, lat, lon
   ORDER BY
     total_rides DESC
   LIMIT 20
 )
-
 SELECT * FROM top_start
 UNION ALL
 SELECT * FROM top_end;
 
--- bike preference by rider type
+-- bike preference by rider type --
 
 SELECT
   member_casual,
   rideable_type,
   COUNT(*) AS total_rides
 FROM `bike-share-user-analysis.bike_trips.cleaned_combined_trips`
-
-
 GROUP BY
   member_casual, rideable_type
 ORDER BY
   member_casual, total_rides DESC;
 
--- number of trips by month
+-- number of trips by month --
 
 SELECT source_month, COUNT(*) AS trips
 FROM `bike-share-user-analysis.bike_trips.cleaned_combined_trips`
 GROUP BY source_month
 ORDER BY source_month;
 
---trip duration by rider per month
+--trip duration by rider per month --
 
 SELECT
   member_casual,
@@ -69,7 +63,7 @@ FROM `bike-share-user-analysis.bike_trips.cleaned_combined_trips`
 GROUP BY member_casual, month
 ORDER BY member_casual, month;
 
--- trips taken weekends vs weekdays
+-- trips taken weekends vs weekdays --
 
 SELECT
   member_casual,
@@ -80,7 +74,6 @@ SELECT
   COUNT(*) AS total_rides
 FROM
    `bike-share-user-analysis.bike_trips.cleaned_combined_trips`
-
 GROUP BY
   member_casual, day_type
 ORDER BY
