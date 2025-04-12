@@ -1,18 +1,18 @@
 # 📅 Cyclistic Bike Share Case Study
 
-## 📖 Introduction
+##  Introduction
 Welcome to the **Cyclistic Bike Share Analysis Case Study**! In this project, I will follow the data analysis process taught in the Google Data Analytics Professional Certificate program: **Ask, Prepare, Process, Analyze, Share, and Act**.
 
 This case study focuses on understanding how **casual riders and annual members use Cyclistic bikes differently**. These insights will inform a marketing strategy aimed at converting casual riders into annual members.
 
 ---
 
-## 🔎 Scenario
+##  Scenario
 You are a junior data analyst working on the marketing team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. Your task is to uncover how different types of riders use the service, which will inform strategic marketing decisions.
 
 ---
 
-## 📃 About the Company
+##  About the Company
 Cyclistic launched a successful bike-share program in **2016**, now with:
 - **5,824 geotracked bicycles**
 - **692 docking stations** across Chicago
@@ -26,28 +26,29 @@ Casual riders use single-ride or day passes; annual members purchase memberships
 
 ---
 
-## ❓ ASK
+##  ASK
 ### Business Task
 Answer the first of three key business questions:
 > **How do annual members and casual riders use Cyclistic bikes differently?**
 
 ---
 
-## 📊 PREPARE
-### 🔍 Data Source
+##  PREPARE
+###  Data Source
 - **12 CSV files** containing monthly trip data from **March 2024 to February 2025**
 - Source: [Divvy Bike Share](https://divvybikes.com/system-data)
 - License: Motivate International Inc. under [this license](https://ride.divvybikes.com/data-license-agreement)
 
-### 📝 Data Summary
+###  Data Summary
 - Total trips: **4,012,709**
 - Columns per file: **13**
 - File naming convention: `YYYYMM-divvy-tripdata.csv`
 
 ---
 
-## ⚖️ PROCESS
+##  PROCESS
 ### Tools Used
+- **RStudio** for exploration
 - **SQL (BigQuery)** for exploration, cleaning, and analysis
 - **Tableau** for data visualization
 
@@ -65,7 +66,7 @@ Answer the first of three key business questions:
 
 ---
 
-## 📊 ANALYZE
+##  ANALYZE
 Key insights include:
 - **Member rides**: 2,541,561
 - **Casual rides**: 1,471,148
@@ -87,7 +88,7 @@ Key insights include:
 
 ---
 
-## 🖋️ SHARE
+##  SHARE
 ### Tableau Dashboard Highlights
 - [ ] Average Trip Duration by Month
 - [ ] Rides by Hour of Day
@@ -99,7 +100,7 @@ Key insights include:
 
 ---
 
-## 🌟 ACT
+##  ACT
 ### Recommendation
 Focus marketing campaigns on **casual riders who ride on weekends and in the summer**, highlighting:
 - Benefits of becoming a member (e.g. cost savings, convenience)
@@ -112,7 +113,7 @@ Next steps may include:
 
 ---
 
-## 📁 Files in This Repository
+##  Files in This Repository
 - `01_Data_Exploration.sql`
 - `02_Data_Combining.sql`
 - `03_Data_Cleaning.sql`
@@ -121,6 +122,6 @@ Next steps may include:
 
 ---
 
-## 📄 License
+##  License
 Data used in this case study is provided by [Motivate International Inc.](https://ride.divvybikes.com/data-license-agreement) and is for educational purposes only.
 
