@@ -1,4 +1,4 @@
-# 📅 Cyclistic Bike Share Case Study
+# Cyclistic Bike Share Case Study
 
 ##  Introduction
 Welcome to the **Cyclistic Bike Share Analysis Case Study**! In this project, I will follow the data analysis process taught in the Google Data Analytics Professional Certificate program: **Ask, Prepare, Process, Analyze, Share, and Act**.
@@ -96,7 +96,7 @@ Key insights include:
 - [ ] Bike Preference by Rider Type
 - [ ] Weekday vs Weekend Usage
 
-(Embed or link your Tableau dashboard here once published)
+View the full visualization on Tableau Public [here](https://public.tableau.com/views/Capstone-BikeShareAnalysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
