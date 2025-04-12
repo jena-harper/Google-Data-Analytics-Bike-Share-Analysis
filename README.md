@@ -8,7 +8,7 @@ This case study focuses on understanding how **casual riders and annual members 
 ---
 
 ##  Scenario
-You are a junior data analyst working on the marketing team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. Your task is to uncover how different types of riders use the service, which will inform strategic marketing decisions.
+I am a junior data analyst working on the marketing team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. My task is to uncover how different types of riders use the service, which will inform strategic marketing decisions.
 
 ---
 
@@ -48,7 +48,7 @@ Answer the first of three key business questions:
 
 ##  PROCESS
 ### Tools Used
-- **RStudio** for exploration
+- **RStudio** for initial inspection, checking column headers and ensuring structures matched
 - **SQL (BigQuery)** for exploration, cleaning, and analysis
 - **Tableau** for data visualization
 
@@ -80,7 +80,7 @@ Key insights include:
   - Take longer trips, peaking in summer months (~25-30 mins)
 
 ### Bike Type Preferences:
-- Casual riders tend to prefer **electric bikes** more than members
+- There is no notable difference in bike type preferences between the two groups
 
 ### Station Usage:
 - Top 20 stations dominated by downtown and lakeside locations
