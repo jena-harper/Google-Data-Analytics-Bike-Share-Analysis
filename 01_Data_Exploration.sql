@@ -1,4 +1,4 @@
--- R script used to inspect headers of .csv files before SQL combining
+-- R script used to inspect headers of .csv files before SQL combining --
 
 
 # Set working directory (adjust if needed)
@@ -20,7 +20,7 @@ for (name in names(column_headers)) {
   cat("\n📄 File:", name, "\n")
   print(column_headers[[name]])
 }
--- count of null values in combined dataset
+-- count of null values in combined dataset --
 
 SELECT COUNT(*) - COUNT(ride_id) ride_id,
  COUNT(*) - COUNT(rideable_type) rideable_type,
