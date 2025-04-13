@@ -96,7 +96,7 @@ Key insights include:
 - [ ] Bike Preference by Rider Type
 - [ ] Weekday vs Weekend Usage
 
-View the full visualization on Tableau Public [here](https://public.tableau.com/views/Capstone-BikeShareAnalysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+View the full visualization on Tableau Public [here](https://public.tableau.com/views/Capstone-BikeShareAnalysis/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 [Read the full write-up on Medium](https://medium.com/@jen_26965/placeholder-for-capstone-466f004b4219)
 
