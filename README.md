@@ -1,4 +1,4 @@
-# Cyclistic Bike Share Case Study
+# Optimizing Membership at Cyclistic: A Data Analytics Case Study
 
 ##  Introduction
 Welcome to the **Cyclistic Bike Share Analysis Case Study**! In this project, I will follow the data analysis process taught in the Google Data Analytics Professional Certificate program: **Ask, Prepare, Process, Analyze, Share, and Act**.
