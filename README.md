@@ -51,6 +51,7 @@ Answer the first of three key business questions:
 - **RStudio** for initial inspection, checking column headers and ensuring structures matched
 - **SQL (BigQuery)** for exploration, cleaning, and analysis
 - **Tableau** for data visualization
+- **Google Sheets** for additional quick explorations
 
 ### SQL Scripts
 1. [`01_Data_Exploration.sql`](01_Data_Exploration.sql)
