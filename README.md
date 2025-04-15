@@ -1,7 +1,7 @@
 # Optimizing Membership at Cyclistic: A Data Analytics Case Study
 
 ##  Introduction
-Welcome to the **Cyclistic Bike Share Analysis Case Study**! In this project, I will follow the data analysis process taught in the Google Data Analytics Professional Certificate program: **Ask, Prepare, Process, Analyze, Share, and Act**.
+Welcome to the **Cyclistic Bike Share Analysis Case Study**! In this project, I will follow the data analysis process outlined in the Google Data Analytics Professional Certificate program: **Ask, Prepare, Process, Analyze, Share, and Act**.
 
 This case study focuses on understanding how **casual riders and annual members use Cyclistic bikes differently**. These insights will inform a marketing strategy aimed at converting casual riders into annual members.
 
