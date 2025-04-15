@@ -40,7 +40,7 @@ Answer the first of three key business questions:
 - License: Motivate International Inc. under [this license](https://ride.divvybikes.com/data-license-agreement)
 
 ###  Data Summary
-- Total trips: **4,012,709**
+- Rows of raw data: **5,783,100**
 - Columns per file: **13**
 - File naming convention: `YYYYMM-divvy-tripdata.csv`
 
