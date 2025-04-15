@@ -104,15 +104,14 @@ View the full visualization on Tableau Public [here](https://public.tableau.com/
 ---
 
 ##  ACT
-### Recommendation
-Focus marketing campaigns on **casual riders who ride on weekends and in the summer**, highlighting:
+### Recommendations Summary
+Focus marketing campaigns on **casual riders who frequent stations favored by members**, highlighting:
 - Benefits of becoming a member (e.g. cost savings, convenience)
 - Promotions targeted at converting repeat casual users
 
-Next steps may include:
-- Sending email campaigns to casual riders
-- Promoting discounted trial memberships
-- Creating commuter-focused promotions
+Offer academic year memberships
+
+Target casual riders who work at popular tourist attractions
 
 ---
 
